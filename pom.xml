@@ -80,7 +80,56 @@
     </repository>
   </repositories>
   <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
+      <resource>
+        <targetPath>${project.build.directory}/prepackaged-site</targetPath>
+        <directory>${basedir}/src/main/prepackagedSite</directory>
+        <includes>
+          <include>export.properties</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.5.5</version>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>assembly</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <descriptors>
+            <descriptor>src/assembly/bootstrap3-test-templates-set.xml</descriptor>
+          </descriptors>
+          <outputDirectory>${project.build.directory}/prepackaged-site</outputDirectory>
+          <finalName>bootstrap3-test-templates-set</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.jahia.server</groupId>
+        <artifactId>jahia-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>package-importsite</id>
+            <goals>
+              <goal>package-imports</goal>
+            </goals>
+            <configuration>
+              <src>${project.build.directory}/prepackaged-site</src>
+              <archiveName>prepackagedSites/bootstrap3TestSite.zip</archiveName>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>

@@ -9,7 +9,7 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${basedir}/src/main/prepackagedSite/commerce</directory>
+            <directory>${basedir}/src/main/prepackagedSite/b3</directory>
             <outputDirectory>/</outputDirectory>
             <excludes>
                 <exclude>/live-repository.xml</exclude>
@@ -20,17 +20,17 @@
     </fileSets>
     <files>
         <file>
-            <source>${basedir}/src/main/prepackagedSite/commerce/live-repository.xml</source>
+            <source>${basedir}/src/main/prepackagedSite/b3/live-repository.xml</source>
             <outputDirectory>/</outputDirectory>
             <filtered>true</filtered>
         </file>
         <file>
-            <source>${basedir}/src/main/prepackagedSite/commerce/repository.xml</source>
+            <source>${basedir}/src/main/prepackagedSite/b3/repository.xml</source>
             <outputDirectory>/</outputDirectory>
             <filtered>true</filtered>
         </file>
         <file>
-            <source>${basedir}/src/main/prepackagedSite/commerce/site.properties</source>
+            <source>${basedir}/src/main/prepackagedSite/b3/site.properties</source>
             <outputDirectory>/</outputDirectory>
             <filtered>true</filtered>
         </file>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <sites jcr:primaryType="jnt:virtualsitesFolder">
+        <b3 j:inactiveLanguages=""
+          j:inactiveLiveLanguages=""
+          j:lastPublished="2016-04-27T14:57:09.347+02:00"
+          j:lastPublishedBy="root"
+          j:originWS="default"
+          j:published="true"
+          j:wcagCompliance="true"
+          jcr:created="2016-04-15T11:20:31.254+02:00"
+          jcr:createdBy="system"
+          jcr:lastModified="2016-04-27T14:57:09.342+02:00"
+          jcr:lastModifiedBy=""
+          jcr:mixinTypes="jmix:accessControlled"
+          jcr:primaryType="jnt:virtualsite"
+          jcr:uuid="e9432a3f-cc74-46af-8bb0-bfb1bd0da95a">
+            <groups j:lastPublished="2016-04-15T11:20:31.479+02:00"
+                 j:lastPublishedBy="root"
+                 j:originWS="default"
+                 j:published="true"
+                 jcr:created="2016-04-15T11:20:31.265+02:00"
+                 jcr:createdBy="system"
+                 jcr:lastModified="2016-04-15T11:20:31.455+02:00"
+                 jcr:lastModifiedBy=""
+                 jcr:primaryType="jnt:groupsFolder"
+                 jcr:uuid="87e32407-450b-41ed-9e0c-43bfb46c54cf">
+                <site-users j:external="false"
+                        j:hidden="false"
+                        j:lastPublished="2016-04-15T11:20:31.479+02:00"
+                        j:lastPublishedBy="root"
+                        j:originWS="default"
+                        j:published="true"
+                        jcr:created="2016-04-15T11:20:31.265+02:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-04-15T11:20:31.455+02:00"
+                        jcr:lastModifiedBy=""
+                        jcr:mixinTypes="jmix:systemNode"
+                        jcr:primaryType="jnt:group"
+                        jcr:uuid="ff4f9c6b-b60d-4c47-9624-fcabcc05b131">
+                    <j:members jcr:primaryType="jnt:members"
+                          jcr:uuid="1299c00c-dd5e-4a33-ad71-3e019cae1b06"/>
+                </site-users>
+                <site-administrators j:external="false"
+                                 j:hidden="false"
+                                 j:lastPublished="2016-04-15T11:20:31.807+02:00"
+                                 j:lastPublishedBy="root"
+                                 j:originWS="default"
+                                 j:published="true"
+                                 jcr:created="2016-04-15T11:20:31.267+02:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2016-04-15T11:20:31.794+02:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:mixinTypes="jmix:systemNode"
+                                 jcr:primaryType="jnt:group"
+                                 jcr:uuid="128e8464-14e4-4154-a730-c506f4e17e09">
+                    <j:members jcr:primaryType="jnt:members"
+                          jcr:uuid="96a8f4a4-71d7-4361-a8a1-c3fe7ace9bfa">
+                        <users jcr:primaryType="jnt:members"
+                         jcr:uuid="b1946893-f93b-4cb7-878d-d8e9a8128b18">
+                            <root j:member="#/users/root"
+                           jcr:primaryType="jnt:member"
+                           jcr:uuid="0ae19bcf-5753-4a3f-9899-97731a2c040f"/>
+                        </users>
+                    </j:members>
+                </site-administrators>
+                <site-privileged j:external="false"
+                             j:hidden="false"
+                             j:lastPublished="2016-04-15T11:20:31.741+02:00"
+                             j:lastPublishedBy="root"
+                             j:originWS="default"
+                             j:published="true"
+                             jcr:created="2016-04-15T11:20:31.268+02:00"
+                             jcr:createdBy="system"
+                             jcr:lastModified="2016-04-15T11:20:31.729+02:00"
+                             jcr:lastModifiedBy=""
+                             jcr:mixinTypes="jmix:systemNode"
+                             jcr:primaryType="jnt:group"
+                             jcr:uuid="1a22420f-98e0-44de-b6db-3ae05db93d61">
+                    <j:members jcr:primaryType="jnt:members"
+                          jcr:uuid="e57deb9a-d0ec-49c9-9d38-07b50c3d6e4d">
+                        <sites jcr:primaryType="jnt:members"
+                         jcr:uuid="2077f127-046e-4325-81a2-054ede4c69cc">
+                            <b3 jcr:primaryType="jnt:members"
+                         jcr:uuid="2645a784-5571-4c82-8989-3ee4015b4f78">
+                                <groups jcr:primaryType="jnt:members"
+                                jcr:uuid="19154c91-e764-43a0-b685-e54faaa16c2a">
+                                    <site-administrators j:member="/sites/b3/groups/site-administrators"
+                                                jcr:primaryType="jnt:member"
+                                                jcr:uuid="9b3f65c9-8641-4189-8399-3b6b38fc1e3d"/>
+                                </groups>
+                            </b3>
+                        </sites>
+                    </j:members>
+                </site-privileged>
+            </groups>
+            <j:acl jcr:primaryType="jnt:acl"
+                jcr:uuid="bd5ba8cd-84c6-4ec6-bd4d-1a06a946c8b1">
+                <GRANT_g_site-privileged j:aceType="GRANT"
+                                     j:principal="g:site-privileged"
+                                     j:protected="false"
+                                     j:roles="privileged"
+                                     jcr:primaryType="jnt:ace"
+                                     jcr:uuid="3164cd3f-44b9-406f-9cdc-b73a07069296"/>
+                <DENY_g_privileged j:aceType="DENY"
+                               j:principal="g:privileged"
+                               j:protected="false"
+                               j:roles="privileged"
+                               jcr:primaryType="jnt:ace"
+                               jcr:uuid="e2724dec-65a3-47b3-9902-1cbfe21ae830"/>
+                <GRANT_g_site-administrators j:aceType="GRANT"
+                                         j:principal="g:site-administrators"
+                                         j:protected="false"
+                                         j:roles="site-administrator"
+                                         jcr:primaryType="jnt:ace"
+                                         jcr:uuid="44936d54-478b-4220-aeea-72dddf93aad4"/>
+            </j:acl>
+        </b3>
+    </sites>
+    <users jcr:primaryType="jnt:usersFolder">
+        <root j:accountLocked="false"
+            j:external="false"
+            j:lastPublished="2016-04-08T10:01:25.133+02:00"
+            j:lastPublishedBy="root"
+            j:originWS="default"
+            j:password="p:5eNDOzyOdajmW3fp9Qe6+RLsdmjosesHg9LWfrTQl9QHly3eUnd7UWi2Kpgn5dpKGC9lrnhYWtc6w2GS0IlevA==$Zyfq2+Gu2tmJyhENVGTM6kXH6aiyxHWfdY/iDdJgMNk="
+            j:published="true"
+            jcr:created="2016-04-07T16:48:24.490+02:00"
+            jcr:createdBy="system"
+            jcr:lastModified="2016-04-08T10:01:25.105+02:00"
+            jcr:lastModifiedBy="root"
+            jcr:mixinTypes="jmix:accessControlled"
+            jcr:primaryType="jnt:user"
+            jcr:uuid="b32d306a-6c74-11de-b3ef-001e4fead50b"
+            preferredLanguage="en">
+            <preferences jcr:primaryType="jnt:preferences"
+                      jcr:uuid="860eac0f-8282-425e-bdb8-26a2231b649c"/>
+            <j:acl jcr:primaryType="jnt:acl"
+                jcr:uuid="928128ba-7f09-42ee-a568-f9a6b56359cc">
+                <GRANT_u_root j:aceType="GRANT"
+                          j:principal="u:root"
+                          j:protected="false"
+                          j:roles="owner"
+                          jcr:primaryType="jnt:ace"
+                          jcr:uuid="24475bff-6f45-4aff-844b-15fa98931816"/>
+            </j:acl>
+            <j:addresses jcr:primaryType="jnt:addresses"
+                      jcr:uuid="11a9612f-2d57-421e-8794-0d2c355d632e"/>
+            <j:phones jcr:primaryType="jnt:phoneNumbers"
+                   jcr:uuid="263bb323-e50a-419c-be05-f5b1a0a87df0"/>
+            <passwordHistory jcr:primaryType="jnt:passwordHistory"
+                          jcr:uuid="71135221-eb0b-4ed1-ba66-e53712da0c95">
+                <pwd-2016-04-07-16-48-28 jcr:created="2016-04-07T16:48:28.067+02:00"
+                                     jcr:createdBy="system"
+                                     jcr:primaryType="jnt:passwordHistoryEntry"
+                                     jcr:uuid="e570c3b2-6852-42af-a4fc-7b03d1218d0e"/>
+                <pwd-2016-03-10-14-02-49 jcr:created="2016-03-10T14:02:49.618+01:00"
+                                     jcr:createdBy="system"
+                                     jcr:primaryType="jnt:passwordHistoryEntry"
+                                     jcr:uuid="dcdb3fba-362f-4bdc-92db-e4f26c742288"/>
+            </passwordHistory>
+        </root>
+    </users>
+</content>
