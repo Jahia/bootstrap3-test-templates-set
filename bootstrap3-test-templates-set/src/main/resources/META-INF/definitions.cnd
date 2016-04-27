@@ -1,0 +1,5 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<b3testnt = 'http://www.jahia.org/b3test/nt/1.0'>
+  
+[b3testnt:glyphicon] > jnt:content, bootstrap3mix:component, bootstrap3mix:glyphicon
