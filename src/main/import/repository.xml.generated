@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content xmlns:cmis="http://www.jahia.org/jahia/cmis/1.0"
-         xmlns:j="http://www.jahia.org/jahia/1.0"
-         xmlns:jcr="http://www.jcp.org/jcr/1.0">
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
         <bootstrap3-test-templates-set j:dependencies="bootstrap3-components bootstrap3-core default"
                                      j:installedModules="bootstrap3-test-templates-set"
@@ -15,17 +13,14 @@
                   j:staticMountPointProviderKey="module-bootstrap3-test-templates-set-1.0-SNAPSHOT">
                     <src jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
                         <main jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                                <jnt_template jcr:mixinTypes="jmix:sourceControl"
-                                   jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:sourceControl"
-                              jcr:primaryType="jnt:templateTypeFolder">
-                                        <template.bootstrap3-test-templates-set.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                            <resources jcr:primaryType="jnt:folder">
+                                <jnt_template jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:primaryType="jnt:templateTypeFolder">
+                                        <template.bootstrap3-test-templates-set.jsp jcr:primaryType="jnt:viewFile"/>
                                     </html>
                                 </jnt_template>
-                                <META-INF jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:metaInfFolder">
-                                    <definitions.cnd jcr:mixinTypes="jmix:sourceControl"
-                                         jcr:primaryType="jnt:definitionFile"/>
+                                <META-INF jcr:primaryType="jnt:metaInfFolder">
+                                    <definitions.cnd jcr:primaryType="jnt:definitionFile"/>
                                 </META-INF>
                             </resources>
                         </main>
@@ -33,81 +28,7 @@
                 </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder">
-                    <ACME_PR.pdf cmis:baseTypeId="cmis:document"
-                         cmis:checkinComment="Initial Version"
-                         cmis:contentStreamFileName="ACME_PR.pdf"
-                         cmis:contentStreamId="store://2016/4/21/16/7/758878aa-7692-4751-830b-bab65fbadcab.bin"
-                         cmis:contentStreamLength="32490"
-                         cmis:contentStreamMimeType="application/pdf"
-                         cmis:isImmutable="false"
-                         cmis:isLatestMajorVersion="true"
-                         cmis:isLatestVersion="true"
-                         cmis:isMajorVersion="true"
-                         cmis:isVersionSeriesCheckedOut="false"
-                         cmis:objectId="a22f378a-dcf1-42a0-8da3-94bf818ec6ea;1.0"
-                         cmis:objectTypeId="cmis:document"
-                         cmis:versionLabel="1.0"
-                         cmis:versionSeriesId="a22f378a-dcf1-42a0-8da3-94bf818ec6ea"
-                         j:appName="Mac OS X 10.7.2 Quartz PDFContext"
-                         jcr:mixinTypes="cmismix:document jmix:document"
-                         jcr:primaryType="jnt:file"
-                         jcr:title="ACME_PR">
-                        <jcr:content jcr:mimeType="application/pdf" jcr:primaryType="nt:resource"/>
-                        <thumbnail j:height="150"
-                          j:width="105"
-                          jcr:mimeType="image/png"
-                          jcr:mixinTypes="jmix:size"
-                          jcr:primaryType="jnt:resource"/>
-                    </ACME_PR.pdf>
-                    <Class_x0025_25eur1.xlsx cmis:baseTypeId="cmis:document"
-                                     cmis:checkinComment="Initial Version"
-                                     cmis:contentStreamFileName="Class%eur1.xlsx"
-                                     cmis:contentStreamId="store://2016/4/21/16/1/95c3028c-2091-46b5-a81d-b85fc99d411a.bin"
-                                     cmis:contentStreamLength="7320"
-                                     cmis:contentStreamMimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                                     cmis:isImmutable="false"
-                                     cmis:isLatestMajorVersion="true"
-                                     cmis:isLatestVersion="true"
-                                     cmis:isMajorVersion="true"
-                                     cmis:isVersionSeriesCheckedOut="false"
-                                     cmis:objectId="788de981-1165-4819-ab51-72052e9f4820;1.0"
-                                     cmis:objectTypeId="cmis:document"
-                                     cmis:versionLabel="1.0"
-                                     cmis:versionSeriesId="788de981-1165-4819-ab51-72052e9f4820"
-                                     j:appName="Microsoft Excel"
-                                     jcr:mixinTypes="cmismix:document jmix:document"
-                                     jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                            jcr:primaryType="nt:resource"/>
-                    </Class_x0025_25eur1.xlsx>
-                    <ACME_x0025_25WP.pdf cmis:baseTypeId="cmis:document"
-                                 cmis:checkinComment="Initial Version"
-                                 cmis:contentStreamFileName="ACME%WP.pdf"
-                                 cmis:contentStreamId="store://2016/4/21/16/7/69d67675-3d8f-43cf-a183-98327ae2d56f.bin"
-                                 cmis:contentStreamLength="32394"
-                                 cmis:contentStreamMimeType="application/pdf"
-                                 cmis:isImmutable="false"
-                                 cmis:isLatestMajorVersion="true"
-                                 cmis:isLatestVersion="true"
-                                 cmis:isMajorVersion="true"
-                                 cmis:isVersionSeriesCheckedOut="false"
-                                 cmis:objectId="093f9695-3917-45ec-9d11-3d8300c10339;1.0"
-                                 cmis:objectTypeId="cmis:document"
-                                 cmis:versionLabel="1.0"
-                                 cmis:versionSeriesId="093f9695-3917-45ec-9d11-3d8300c10339"
-                                 j:appName="Mac OS X 10.7.2 Quartz PDFContext"
-                                 jcr:mixinTypes="cmismix:document jmix:document"
-                                 jcr:primaryType="jnt:file"
-                                 jcr:title="ACME_WP">
-                        <jcr:content jcr:mimeType="application/pdf" jcr:primaryType="nt:resource"/>
-                        <thumbnail j:height="150"
-                          j:width="105"
-                          jcr:mimeType="image/png"
-                          jcr:mixinTypes="jmix:size"
-                          jcr:primaryType="jnt:resource"/>
-                    </ACME_x0025_25WP.pdf>
-                </files>
+                <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
                 <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder">
