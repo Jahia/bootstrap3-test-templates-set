@@ -13,7 +13,7 @@
                   j:staticMountPointProviderKey="module-bootstrap3-test-templates-set-1.0-SNAPSHOT">
                     <src jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
                         <main jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                            <resources jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
                                 <jnt_template jcr:primaryType="jnt:nodeTypeFolder">
                                     <html jcr:primaryType="jnt:templateTypeFolder">
                                         <template.bootstrap3-test-templates-set.jsp jcr:primaryType="jnt:viewFile"/>
@@ -76,7 +76,6 @@
                                       jcr:primaryType="bootstrap3nt:sidemenu"
                                       level="0"/>
                                     </simple-side>
-                                    <simple-main jcr:primaryType="jnt:contentList"/>
                                 </simple>
                             </pagecontent>
                         </simple>
