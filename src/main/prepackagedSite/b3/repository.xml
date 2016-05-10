@@ -550,9 +550,9 @@
                         jcr:primaryType="bootstrap3nt:pagination"
                         jcr:uuid="198479f7-39f8-4431-9dc5-e844e557f7c9"
                         layout="default"
-                        nbOfPages="10"
-                        nbOfPagesInEdit="100"
-                        pageSize="10"/>
+                        nbOfPages="4"
+                        nbOfPagesInEdit="1"
+                        pageSize="2"/>
                 </section--container--row--grid-1-col0>
                 <section--container--row--grid-1-col1 j:originWS="default"
                                                   jcr:created="2016-04-21T12:52:36.969+02:00"
