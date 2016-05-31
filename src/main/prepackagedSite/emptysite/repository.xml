@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <sites jcr:primaryType="jnt:virtualsitesFolder">
+        <testsite j:allowsUnlistedLanguages="false"
+                j:inactiveLanguages=""
+                j:inactiveLiveLanguages=""
+                j:lastPublished="2016-05-27T13:43:17.530-04:00"
+                j:lastPublishedBy="root"
+                j:originWS="default"
+                j:published="true"
+                j:wcagCompliance="true"
+                jcr:created="2016-05-27T13:32:45.795-04:00"
+                jcr:createdBy="system"
+                jcr:lastModified="2016-05-27T13:43:17.524-04:00"
+                jcr:lastModifiedBy="root"
+                jcr:primaryType="jnt:virtualsite">
+            <files j:originWS="default"
+                jcr:created="2016-05-27T13:32:45.801-04:00"
+                jcr:createdBy="system"
+                jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                jcr:lastModifiedBy=""
+                jcr:primaryType="jnt:folder"/>
+            <portlets j:originWS="default"
+                   jcr:created="2016-05-27T13:32:45.802-04:00"
+                   jcr:createdBy="system"
+                   jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                   jcr:lastModifiedBy=""
+                   jcr:primaryType="jnt:portletFolder"/>
+            <groups j:lastPublished="2016-05-27T13:32:46.762-04:00"
+                 j:lastPublishedBy="root"
+                 j:originWS="default"
+                 j:published="true"
+                 jcr:created="2016-05-27T13:32:45.802-04:00"
+                 jcr:createdBy="system"
+                 jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                 jcr:lastModifiedBy=""
+                 jcr:primaryType="jnt:groupsFolder">
+                <site-users j:external="false"
+                        j:hidden="false"
+                        j:lastPublished="2016-05-27T13:32:46.762-04:00"
+                        j:lastPublishedBy="root"
+                        j:originWS="default"
+                        j:published="true"
+                        jcr:created="2016-05-27T13:32:45.802-04:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                        jcr:lastModifiedBy=""
+                        jcr:mixinTypes="jmix:systemNode"
+                        jcr:primaryType="jnt:group">
+                    <j:members jcr:primaryType="jnt:members"/>
+                </site-users>
+                <site-administrators j:external="false"
+                                 j:hidden="false"
+                                 j:lastPublished="2016-05-27T13:40:28.868-04:00"
+                                 j:lastPublishedBy="root"
+                                 j:originWS="default"
+                                 j:published="true"
+                                 jcr:created="2016-05-27T13:32:45.802-04:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2016-05-27T13:40:28.859-04:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:mixinTypes="jmix:systemNode"
+                                 jcr:primaryType="jnt:group">
+                    <j:members jcr:primaryType="jnt:members">
+                        <users jcr:primaryType="jnt:members">
+                            <root j:member="#/users/root" jcr:primaryType="jnt:member"/>
+                            <hj jcr:primaryType="jnt:members">
+                                <di jcr:primaryType="jnt:members">
+                                    <ac jcr:primaryType="jnt:members">
+                                        <bill j:member="#/users/hj/di/ac/bill" jcr:primaryType="jnt:member"/>
+                                    </ac>
+                                </di>
+                            </hj>
+                            <providers jcr:primaryType="jnt:members">
+                                <ldap.config.rqa5 jcr:primaryType="jnt:members">
+                                    <hc jcr:primaryType="jnt:members">
+                                        <if jcr:primaryType="jnt:members">
+                                            <fh jcr:primaryType="jnt:members">
+                                                <user7 j:member="/users/providers/ldap.config.rqa5/hc/if/fh/user7"
+                                           jcr:primaryType="jnt:member"/>
+                                            </fh>
+                                        </if>
+                                    </hc>
+                                </ldap.config.rqa5>
+                            </providers>
+                        </users>
+                    </j:members>
+                </site-administrators>
+                <site-privileged j:external="false"
+                             j:hidden="false"
+                             j:lastPublished="2016-05-27T13:43:17.442-04:00"
+                             j:lastPublishedBy="root"
+                             j:originWS="default"
+                             j:published="true"
+                             jcr:created="2016-05-27T13:32:45.803-04:00"
+                             jcr:createdBy="system"
+                             jcr:lastModified="2016-05-27T13:43:17.429-04:00"
+                             jcr:lastModifiedBy=""
+                             jcr:mixinTypes="jmix:systemNode"
+                             jcr:primaryType="jnt:group">
+                    <j:members jcr:primaryType="jnt:members">
+                        <sites jcr:primaryType="jnt:members">
+                            <testsite jcr:primaryType="jnt:members">
+                                <groups jcr:primaryType="jnt:members">
+                                    <site-administrators j:member="/sites/testsite/groups/site-administrators"
+                                                jcr:primaryType="jnt:member"/>
+                                </groups>
+                            </testsite>
+                        </sites>
+                        <users jcr:primaryType="jnt:members">
+                            <providers jcr:primaryType="jnt:members">
+                                <ldap.config.rqa5 jcr:primaryType="jnt:members">
+                                    <gj jcr:primaryType="jnt:members">
+                                        <if jcr:primaryType="jnt:members">
+                                            <fh jcr:primaryType="jnt:members">
+                                                <user4 j:member="/users/providers/ldap.config.rqa5/gj/if/fh/user4"
+                                           jcr:primaryType="jnt:member"/>
+                                            </fh>
+                                        </if>
+                                    </gj>
+                                    <gf jcr:primaryType="jnt:members">
+                                        <if jcr:primaryType="jnt:members">
+                                            <fh jcr:primaryType="jnt:members">
+                                                <user0 j:member="/users/providers/ldap.config.rqa5/gf/if/fh/user0"
+                                           jcr:primaryType="jnt:member"/>
+                                            </fh>
+                                        </if>
+                                    </gf>
+                                    <gh jcr:primaryType="jnt:members">
+                                        <if jcr:primaryType="jnt:members">
+                                            <fh jcr:primaryType="jnt:members">
+                                                <user2 j:member="/users/providers/ldap.config.rqa5/gh/if/fh/user2"
+                                           jcr:primaryType="jnt:member"/>
+                                            </fh>
+                                        </if>
+                                    </gh>
+                                    <gi jcr:primaryType="jnt:members">
+                                        <if jcr:primaryType="jnt:members">
+                                            <fh jcr:primaryType="jnt:members">
+                                                <user3 j:member="/users/providers/ldap.config.rqa5/gi/if/fh/user3"
+                                           jcr:primaryType="jnt:member"/>
+                                            </fh>
+                                        </if>
+                                    </gi>
+                                </ldap.config.rqa5>
+                            </providers>
+                            <jb jcr:primaryType="jnt:members">
+                                <ac jcr:primaryType="jnt:members">
+                                    <eh jcr:primaryType="jnt:members">
+                                        <irina j:member="#/users/jb/ac/eh/irina" jcr:primaryType="jnt:member"/>
+                                    </eh>
+                                </ac>
+                            </jb>
+                            <jf jcr:primaryType="jnt:members">
+                                <bi jcr:primaryType="jnt:members">
+                                    <ab jcr:primaryType="jnt:members">
+                                        <mathias j:member="#/users/jf/bi/ab/mathias" jcr:primaryType="jnt:member"/>
+                                    </ab>
+                                </bi>
+                            </jf>
+                            <ei jcr:primaryType="jnt:members">
+                                <ij jcr:primaryType="jnt:members">
+                                    <jj jcr:primaryType="jnt:members">
+                                        <anne j:member="#/users/ei/ij/jj/anne" jcr:primaryType="jnt:member"/>
+                                    </jj>
+                                </ij>
+                            </ei>
+                            <he jcr:primaryType="jnt:members">
+                                <ef jcr:primaryType="jnt:members">
+                                    <cf jcr:primaryType="jnt:members">
+                                        <jane j:member="#/users/he/ef/cf/jane" jcr:primaryType="jnt:member"/>
+                                    </cf>
+                                </ef>
+                            </he>
+                        </users>
+                    </j:members>
+                </site-privileged>
+            </groups>
+            <contents j:originWS="default"
+                   jcr:created="2016-05-27T13:32:45.803-04:00"
+                   jcr:createdBy="system"
+                   jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                   jcr:lastModifiedBy=""
+                   jcr:primaryType="jnt:contentFolder">
+                <profile-page-items j:originWS="default"
+                                jcr:created="2016-05-27T13:32:45.924-04:00"
+                                jcr:createdBy="system"
+                                jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                jcr:lastModifiedBy=""
+                                jcr:primaryType="jnt:contentFolder">
+                    <j:translation_en jcr:language="en"
+                                 jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="Profile Page Items"/>
+                    <bookmarks divClass="user-bookmarks"
+                          j:originWS="default"
+                          jcr:created="2016-05-27T13:32:45.925-04:00"
+                          jcr:createdBy="system"
+                          jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                          jcr:lastModifiedBy=""
+                          jcr:primaryType="jnt:componentLink"
+                          targetTemplate="user-bookmarks">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="My Bookmarks"/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Mes Bookmarks"/>
+                    </bookmarks>
+                </profile-page-items>
+                <portal-components j:originWS="default"
+                               jcr:created="2016-05-27T13:32:45.927-04:00"
+                               jcr:createdBy="system"
+                               jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                               jcr:lastModifiedBy=""
+                               jcr:primaryType="jnt:contentFolder">
+                    <j:translation_en jcr:language="en"
+                                 jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="Portal Components"/>
+                    <currentUserBookmarks j:originWS="default"
+                                     jcr:created="2016-05-27T13:32:45.928-04:00"
+                                     jcr:createdBy="system"
+                                     jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                     jcr:lastModifiedBy=""
+                                     jcr:primaryType="jnt:currentUserBookmarks"
+                                     numberOfBookmarksPerPage="10">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="My Bookmarks"/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Mes Bookmarks"/>
+                    </currentUserBookmarks>
+                </portal-components>
+            </contents>
+            <home changefreq="monthly"
+               j:isHomePage="true"
+               j:originWS="default"
+               j:templateName="home"
+               jcr:created="2016-05-27T13:32:46.099-04:00"
+               jcr:createdBy="system"
+               jcr:lastModified="2016-05-27T13:32:46.993-04:00"
+               jcr:lastModifiedBy=""
+               jcr:mixinTypes="jmix:sitemap"
+               jcr:primaryType="jnt:page"
+               priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:35:47.680-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Accueil"/>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:35:47.680-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Principal"/>
+            </home>
+            <search-results changefreq="monthly"
+                         j:originWS="default"
+                         j:templateName="simple"
+                         jcr:created="2016-05-27T13:32:46.100-04:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2016-05-27T13:32:46.957-04:00"
+                         jcr:lastModifiedBy=""
+                         jcr:mixinTypes="jmix:sitemap"
+                         jcr:primaryType="jnt:page"
+                         priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:35:09.735-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Search results"/>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:35:54.632-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Résultats de recherche"/>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:35:54.632-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Resultados de la búsqueda"/>
+            </search-results>
+            <newsletter-subscriptions changefreq="monthly"
+                                   j:originWS="default"
+                                   j:templateName="newsletter-subscriptions"
+                                   jcr:created="2016-05-27T13:32:45.938-04:00"
+                                   jcr:createdBy="system"
+                                   jcr:lastModified="2016-05-27T13:32:46.968-04:00"
+                                   jcr:lastModifiedBy=""
+                                   jcr:mixinTypes="jmix:sitemap"
+                                   jcr:primaryType="jnt:page"
+                                   priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscriptions"/>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:36:00.790-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscriptions"/>
+                <j:translation_de jcr:language="de"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter Abonnements"/>
+                <pagecontent j:originWS="default"
+                         jcr:created="2016-05-27T13:32:45.940-04:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:contentList">
+                    <newsletters-subscriptions j:fields="j:firstName"
+                                          j:originWS="default"
+                                          jcr:created="2016-05-27T13:32:45.940-04:00"
+                                          jcr:createdBy="system"
+                                          jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                          jcr:lastModifiedBy=""
+                                          jcr:primaryType="jnt:newslettersSubscriptions"/>
+                </pagecontent>
+                <custom-rows-960gs-col1 j:originWS="default"
+                                    jcr:created="2016-05-27T13:32:45.941-04:00"
+                                    jcr:createdBy="system"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:contentList">
+                    <newsletter-subscriptions j:fields="j:firstName"
+                                         j:originWS="default"
+                                         jcr:created="2016-05-27T13:32:45.941-04:00"
+                                         jcr:createdBy="system"
+                                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                         jcr:lastModifiedBy=""
+                                         jcr:primaryType="jnt:newslettersSubscriptions">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="newsletter-subscriptions"/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="newsletter-abonnements"/>
+                    </newsletter-subscriptions>
+                </custom-rows-960gs-col1>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:36:00.790-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscriptions"/>
+            </newsletter-subscriptions>
+            <newsletters j:originWS="default"
+                      jcr:created="2016-05-27T13:32:45.943-04:00"
+                      jcr:createdBy="system"
+                      jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                      jcr:lastModifiedBy=""
+                      jcr:primaryType="jnt:newsletters"/>
+            <j:acl j:inherit="true" jcr:primaryType="jnt:acl">
+                <GRANT_g_site-privileged j:aceType="GRANT"
+                                     j:principal="g:site-privileged"
+                                     j:protected="false"
+                                     j:roles="privileged"
+                                     jcr:primaryType="jnt:ace"/>
+                <DENY_g_privileged j:aceType="DENY"
+                               j:principal="g:privileged"
+                               j:protected="false"
+                               j:roles="privileged"
+                               jcr:primaryType="jnt:ace"/>
+                <GRANT_g_site-administrators j:aceType="GRANT"
+                                         j:principal="g:site-administrators"
+                                         j:protected="false"
+                                         j:roles="site-administrator"
+                                         jcr:primaryType="jnt:ace"/>
+                <GRANT_u_irina j:aceType="GRANT"
+                           j:principal="u:irina"
+                           j:protected="false"
+                           j:roles="reviewer"
+                           jcr:primaryType="jnt:ace"/>
+                <GRANT_u_user3 j:aceType="GRANT"
+                           j:principal="u:user3"
+                           j:protected="false"
+                           j:roles="reviewer"
+                           jcr:primaryType="jnt:ace"/>
+                <GRANT_u_mathias j:aceType="GRANT"
+                             j:principal="u:mathias"
+                             j:protected="false"
+                             j:roles="editor"
+                             jcr:primaryType="jnt:ace"/>
+                <GRANT_u_user0 j:aceType="GRANT"
+                           j:principal="u:user0"
+                           j:protected="false"
+                           j:roles="editor"
+                           jcr:primaryType="jnt:ace"/>
+                <GRANT_u_jane j:aceType="GRANT"
+                          j:principal="u:jane"
+                          j:protected="false"
+                          j:roles="contributor"
+                          jcr:primaryType="jnt:ace"/>
+                <GRANT_u_user2 j:aceType="GRANT"
+                           j:principal="u:user2"
+                           j:protected="false"
+                           j:roles="contributor"
+                           jcr:primaryType="jnt:ace"/>
+                <GRANT_u_user4 j:aceType="GRANT"
+                           j:principal="u:user4"
+                           j:protected="false"
+                           j:roles="editor-in-chief"
+                           jcr:primaryType="jnt:ace"/>
+                <GRANT_u_anne j:aceType="GRANT"
+                          j:principal="u:anne"
+                          j:protected="false"
+                          j:roles="editor-in-chief"
+                          jcr:primaryType="jnt:ace"/>
+                <REFcontributor_currentSite-access_u_user2 j:aceType="GRANT"
+                                                       j:externalPermissionsName="currentSite-access"
+                                                       j:principal="u:user2"
+                                                       j:protected="true"
+                                                       j:roles="contributor"
+                                                       j:sourceAce="/sites/testsite/j:acl/GRANT_u_user2"
+                                                       jcr:primaryType="jnt:externalAce"/>
+                <REFeditor-in-chief_currentSite-access_u_anne j:aceType="GRANT"
+                                                          j:externalPermissionsName="currentSite-access"
+                                                          j:principal="u:anne"
+                                                          j:protected="true"
+                                                          j:roles="editor-in-chief"
+                                                          j:sourceAce="/sites/testsite/j:acl/GRANT_u_anne /sites/testsite/j:acl/GRANT_u_anne"
+                                                          jcr:primaryType="jnt:externalAce"/>
+                <REFcontributor_currentSite-access_u_jane j:aceType="GRANT"
+                                                      j:externalPermissionsName="currentSite-access"
+                                                      j:principal="u:jane"
+                                                      j:protected="true"
+                                                      j:roles="contributor"
+                                                      j:sourceAce="/sites/testsite/j:acl/GRANT_u_jane"
+                                                      jcr:primaryType="jnt:externalAce"/>
+                <REFeditor_currentSite-access_u_mathias j:aceType="GRANT"
+                                                    j:externalPermissionsName="currentSite-access"
+                                                    j:principal="u:mathias"
+                                                    j:protected="true"
+                                                    j:roles="editor"
+                                                    j:sourceAce="/sites/testsite/j:acl/GRANT_u_mathias"
+                                                    jcr:primaryType="jnt:externalAce"/>
+                <REFreviewer_currentSite-access_u_irina j:aceType="GRANT"
+                                                    j:externalPermissionsName="currentSite-access"
+                                                    j:principal="u:irina"
+                                                    j:protected="true"
+                                                    j:roles="reviewer"
+                                                    j:sourceAce="/sites/testsite/j:acl/GRANT_u_irina"
+                                                    jcr:primaryType="jnt:externalAce"/>
+                <REFeditor-in-chief_currentSite-access_u_user4 j:aceType="GRANT"
+                                                           j:externalPermissionsName="currentSite-access"
+                                                           j:principal="u:user4"
+                                                           j:protected="true"
+                                                           j:roles="editor-in-chief"
+                                                           j:sourceAce="/sites/testsite/j:acl/GRANT_u_user4 /sites/testsite/j:acl/GRANT_u_user4"
+                                                           jcr:primaryType="jnt:externalAce"/>
+                <REFeditor_currentSite-access_u_user0 j:aceType="GRANT"
+                                                  j:externalPermissionsName="currentSite-access"
+                                                  j:principal="u:user0"
+                                                  j:protected="true"
+                                                  j:roles="editor"
+                                                  j:sourceAce="/sites/testsite/j:acl/GRANT_u_user0"
+                                                  jcr:primaryType="jnt:externalAce"/>
+                <REFreviewer_currentSite-access_u_user3 j:aceType="GRANT"
+                                                    j:externalPermissionsName="currentSite-access"
+                                                    j:principal="u:user3"
+                                                    j:protected="true"
+                                                    j:roles="reviewer"
+                                                    j:sourceAce="/sites/testsite/j:acl/GRANT_u_user3"
+                                                    jcr:primaryType="jnt:externalAce"/>
+            </j:acl>
+            <nl-subscribe-confirm changefreq="monthly"
+                               j:originWS="default"
+                               j:templateName="newsletter-confirmation"
+                               jcr:created="2016-05-27T13:32:45.944-04:00"
+                               jcr:createdBy="system"
+                               jcr:lastModified="2016-05-27T13:32:46.980-04:00"
+                               jcr:lastModifiedBy=""
+                               jcr:mixinTypes="jmix:sitemap"
+                               jcr:primaryType="jnt:page"
+                               priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscription confirmation"/>
+                <j:translation_de jcr:language="de"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter Anmeldebestätigung"/>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:36:08.979-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscription confirmation"/>
+                <pagecontent j:originWS="default"
+                         jcr:created="2016-05-27T13:32:45.945-04:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:contentList">
+                    <bigText j:originWS="default"
+                        jcr:created="2016-05-27T13:32:45.946-04:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                        jcr:lastModifiedBy=""
+                        jcr:primaryType="jnt:bigText">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Thank you! Your subscription has been taken into account.&lt;/p&gt; "/>
+                        <j:translation_de jcr:language="de"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Danke! Ihre Anmeldung war erfolgreich.&lt;/p&gt; "/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Merci! Votre abonnement a été pris en compte.&lt;/p&gt; "/>
+                    </bigText>
+                </pagecontent>
+                <custom-rows-960gs-col1 j:originWS="default"
+                                    jcr:created="2016-05-27T13:32:45.947-04:00"
+                                    jcr:createdBy="system"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:contentList">
+                    <rich-text j:originWS="default"
+                          jcr:created="2016-05-27T13:32:45.948-04:00"
+                          jcr:createdBy="system"
+                          jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                          jcr:lastModifiedBy=""
+                          jcr:primaryType="jnt:bigText">
+                        <j:translation_en jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;  Merci! Votre abonnement a été pris en compte.&lt;/p&gt; "/>
+                        <j:translation_fr jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;  Thank you! Your subscription has been taken into account.&lt;/p&gt; "/>
+                    </rich-text>
+                </custom-rows-960gs-col1>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:36:08.979-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter subscription confirmation"/>
+            </nl-subscribe-confirm>
+            <nl-unsubscribe-confirm changefreq="monthly"
+                                 j:originWS="default"
+                                 j:templateName="newsletter-confirmation"
+                                 jcr:created="2016-05-27T13:32:45.949-04:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2016-05-27T13:32:47.004-04:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:mixinTypes="jmix:sitemap"
+                                 jcr:primaryType="jnt:page"
+                                 priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter unsubscription confirmation"/>
+                <j:translation_de jcr:language="de"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter Abmeldebestätigung"/>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:36:16.452-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter unsubscription confirmation"/>
+                <pagecontent j:originWS="default"
+                         jcr:created="2016-05-27T13:32:45.950-04:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:contentList">
+                    <bigText j:originWS="default"
+                        jcr:created="2016-05-27T13:32:45.951-04:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                        jcr:lastModifiedBy=""
+                        jcr:primaryType="jnt:bigText">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Your unsubscription has been taken into account.&lt;/p&gt; "/>
+                        <j:translation_de jcr:language="de"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Danke! Ihre Abmeldung war erfolgreich.&lt;/p&gt; "/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;Votre désabonnement a été pris en compte.&lt;/p&gt; "/>
+                    </bigText>
+                </pagecontent>
+                <custom-rows-960gs-col1 j:originWS="default"
+                                    jcr:created="2016-05-27T13:32:45.952-04:00"
+                                    jcr:createdBy="system"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:contentList">
+                    <rich-text j:originWS="default"
+                          jcr:created="2016-05-27T13:32:45.952-04:00"
+                          jcr:createdBy="system"
+                          jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                          jcr:lastModifiedBy=""
+                          jcr:primaryType="jnt:bigText">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;  Your unsubscription has been taken into account.&lt;/p&gt; "/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;p&gt;  Votre désabonnement a été pris en compte.&lt;/p&gt; "/>
+                    </rich-text>
+                </custom-rows-960gs-col1>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:36:16.452-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Newsletter unsubscription confirmation"/>
+            </nl-unsubscribe-confirm>
+            <wiki-search-results changefreq="monthly"
+                              j:originWS="default"
+                              j:templateName="wiki-searchResults"
+                              jcr:created="2016-05-27T13:32:46.084-04:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2016-05-27T13:32:47.015-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:sitemap"
+                              jcr:primaryType="jnt:page"
+                              priority="0.5">
+                <j:translation_en jcr:language="en"
+                              jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Wiki Search Results"/>
+                <pagecontent j:originWS="default"
+                         jcr:created="2016-05-27T13:32:46.086-04:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:contentList">
+                    <predefined--rows-960gs column="1col16"
+                                       j:originWS="default"
+                                       jcr:created="2016-05-27T13:32:46.086-04:00"
+                                       jcr:createdBy="system"
+                                       jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                       jcr:lastModifiedBy=""
+                                       jcr:primaryType="jnt:row"/>
+                </pagecontent>
+                <j:translation_fr jcr:language="fr"
+                              jcr:lastModified="2016-05-27T13:36:22.846-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Wiki Search Results"/>
+                <predefined--rows-960gs-col1 j:originWS="default"
+                                         jcr:created="2016-05-27T13:32:46.087-04:00"
+                                         jcr:createdBy="system"
+                                         jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                         jcr:lastModifiedBy=""
+                                         jcr:primaryType="jnt:contentList">
+                    <pagetitle j:originWS="default"
+                          jcr:created="2016-05-27T13:32:46.087-04:00"
+                          jcr:createdBy="system"
+                          jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                          jcr:lastModifiedBy=""
+                          jcr:primaryType="jnt:pageTitle"/>
+                    <search-results autoSuggest="true"
+                               autoSuggestHitCount="2"
+                               autoSuggestMinimumHitCount="2"
+                               j:originWS="default"
+                               jcr:created="2016-05-27T13:32:46.088-04:00"
+                               jcr:createdBy="system"
+                               jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                               jcr:lastModifiedBy=""
+                               jcr:primaryType="jnt:searchResults">
+                        <j:translation_en jcr:language="en"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Search Results"/>
+                        <j:translation_fr jcr:language="fr"
+                                    jcr:lastModified="2016-05-27T13:32:46.684-04:00"
+                                    jcr:lastModifiedBy=""
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Résultats de la recherche"/>
+                    </search-results>
+                </predefined--rows-960gs-col1>
+                <j:translation_es jcr:language="es"
+                              jcr:lastModified="2016-05-27T13:36:22.846-04:00"
+                              jcr:lastModifiedBy="root"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Wiki Search Results"/>
+            </wiki-search-results>
+        </testsite>
+    </sites>
+    <users jcr:primaryType="jnt:usersFolder">
+        <ei jcr:primaryType="jnt:usersFolder">
+            <ij jcr:primaryType="jnt:usersFolder">
+                <jj jcr:primaryType="jnt:usersFolder">
+                    <anne emailNotificationsDisabled="false"
+                     j:about="&lt;p&gt;&lt;span style=&#34;color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans; font-size: 11px; line-height: 14px; text-align: justify;&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;/p&gt;"
+                     j:accountLocked="false"
+                     j:email=""
+                     j:external="false"
+                     j:firstName="Anne"
+                     j:function="Acme Space website Editor in chief"
+                     j:gender="female"
+                     j:lastName="Lovelace"
+                     j:lastPublished="2016-05-27T13:34:09.380-04:00"
+                     j:lastPublishedBy="root"
+                     j:organization="Acme Space"
+                     j:originWS="default"
+                     j:password="W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+                     j:picture="#/users/ei/ij/jj/anne/files/profile/20.jpg"
+                     j:publicProperties="j:firstName j:function j:lastName j:organization j:picture j:title"
+                     j:published="true"
+                     jcr:created="2014-03-20T16:52:40.668+01:00"
+                     jcr:createdBy="system"
+                     jcr:lastModified="2016-05-27T13:34:09.361-04:00"
+                     jcr:lastModifiedBy="root"
+                     jcr:mixinTypes="jmix:accessControlled"
+                     jcr:primaryType="jnt:user"
+                     preferredLanguage="en">
+                        <preferences jcr:primaryType="jnt:preferences"/>
+                        <j:acl jcr:primaryType="jnt:acl">
+                            <GRANT_u_anne j:aceType="GRANT"
+                                   j:principal="u:anne"
+                                   j:protected="false"
+                                   j:roles="owner"
+                                   jcr:primaryType="jnt:ace"/>
+                        </j:acl>
+                        <j:addresses jcr:primaryType="jnt:addresses"/>
+                        <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+                        <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                            <pwd-2014-03-26-13-57-16 jcr:created="2014-03-26T13:57:16.495+01:00"
+                                              jcr:createdBy="system"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                            <pwd-2016-05-27-13-34-09 jcr:created="2016-05-27T13:34:09.351-04:00"
+                                              jcr:createdBy="root"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                        </passwordHistory>
+                        <files j:originWS="default"
+                         jcr:created="2014-03-20T16:52:40.671+01:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:folder">
+                            <profile j:originWS="default"
+                              jcr:created="2014-03-20T16:52:40.672+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:primaryType="jnt:folder">
+                                <_x0032_0.jpg j:height="111"
+                                      j:originWS="default"
+                                      j:width="111"
+                                      j:xresolution="100 dots"
+                                      j:yresolution="100 dots"
+                                      jcr:created="2014-03-20T18:12:36.434+01:00"
+                                      jcr:createdBy="anne"
+                                      jcr:lastModified="2014-03-26T14:11:56.359+01:00"
+                                      jcr:lastModifiedBy="anne"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.398-04:00"
+                                        jcr:lastModifiedBy="anne"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.408-04:00"
+                                      jcr:lastModifiedBy="anne"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.413-04:00"
+                                       jcr:lastModifiedBy="anne"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.424-04:00"
+                                       jcr:lastModifiedBy="anne"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.426-04:00"
+                                      jcr:lastModifiedBy="anne"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0032_0.jpg>
+                                <_x0037_.jpg j:height="111"
+                                     j:originWS="default"
+                                     j:width="111"
+                                     j:xresolution="100 dots"
+                                     j:yresolution="100 dots"
+                                     jcr:created="2014-03-26T14:11:45.785+01:00"
+                                     jcr:createdBy="anne"
+                                     jcr:lastModified="2014-03-26T14:11:46.111+01:00"
+                                     jcr:lastModifiedBy="anne"
+                                     jcr:mixinTypes="jmix:exif jmix:image"
+                                     jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.435-04:00"
+                                        jcr:lastModifiedBy="anne"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.443-04:00"
+                                      jcr:lastModifiedBy="anne"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.448-04:00"
+                                       jcr:lastModifiedBy="anne"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.457-04:00"
+                                       jcr:lastModifiedBy="anne"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.459-04:00"
+                                      jcr:lastModifiedBy="anne"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0037_.jpg>
+                            </profile>
+                            <private j:originWS="default"
+                              jcr:created="2014-03-20T16:52:40.672+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:accessControlled"
+                              jcr:primaryType="jnt:folder">
+                                <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                                    <GRANT_u_user j:aceType="GRANT"
+                                         j:principal="u:anne"
+                                         j:protected="false"
+                                         j:roles="owner"
+                                         jcr:primaryType="jnt:ace"/>
+                                </j:acl>
+                                <imports j:originWS="default"
+                                 jcr:created="2014-03-20T16:52:40.672+01:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:primaryType="jnt:importDropBox"/>
+                            </private>
+                        </files>
+                        <portlets j:originWS="default"
+                            jcr:created="2014-03-20T16:52:40.673+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:portletFolder"/>
+                        <contents j:originWS="default"
+                            jcr:created="2014-03-20T16:52:40.673+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2014-03-20T16:52:40.725+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:contentFolder"/>
+                    </anne>
+                </jj>
+            </ij>
+        </ei>
+        <he jcr:primaryType="jnt:usersFolder">
+            <ef jcr:primaryType="jnt:usersFolder">
+                <cf jcr:primaryType="jnt:usersFolder">
+                    <jane j:about="&lt;p&gt;&#xA; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;&#xA;"
+                     j:accountLocked="false"
+                     j:email=""
+                     j:external="false"
+                     j:firstName="Jane"
+                     j:function="Acme Space Website contributor"
+                     j:gender="female"
+                     j:lastName="Copernicus"
+                     j:lastPublished="2016-05-27T13:34:09.380-04:00"
+                     j:lastPublishedBy="root"
+                     j:organization="Acme Space"
+                     j:originWS="default"
+                     j:password="W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+                     j:picture="#/users/he/ef/cf/jane/files/profile/12.jpg"
+                     j:publicProperties="j:about j:function j:gender j:picture j:title"
+                     j:published="true"
+                     j:title="miss"
+                     jcr:created="2012-08-29T17:38:46.709+02:00"
+                     jcr:createdBy="system"
+                     jcr:lastModified="2016-05-27T13:34:09.361-04:00"
+                     jcr:lastModifiedBy="root"
+                     jcr:mixinTypes="jmix:accessControlled"
+                     jcr:primaryType="jnt:user"
+                     preferredLanguage="en">
+                        <preferences jcr:primaryType="jnt:preferences"/>
+                        <j:acl jcr:primaryType="jnt:acl">
+                            <GRANT_u_jane j:aceType="GRANT"
+                                   j:principal="u:jane"
+                                   j:protected="false"
+                                   j:roles="owner"
+                                   jcr:primaryType="jnt:ace"/>
+                        </j:acl>
+                        <j:addresses jcr:primaryType="jnt:addresses"/>
+                        <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+                        <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                            <pwd-2014-03-26-13-57-16 jcr:created="2014-03-26T13:57:16.391+01:00"
+                                              jcr:createdBy="system"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                            <pwd-2016-05-27-13-34-09 jcr:created="2016-05-27T13:34:09.350-04:00"
+                                              jcr:createdBy="root"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                        </passwordHistory>
+                        <files j:lastPublished="2012-09-03T11:54:57.372+02:00"
+                         j:lastPublishedBy="root"
+                         j:originWS="default"
+                         j:published="true"
+                         jcr:created="2012-08-29T17:38:47.397+02:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:folder">
+                            <profile j:lastPublished="2012-09-03T11:54:57.372+02:00"
+                              j:lastPublishedBy="root"
+                              j:originWS="default"
+                              j:published="true"
+                              jcr:created="2012-08-29T17:38:47.399+02:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                              jcr:lastModifiedBy=""
+                              jcr:primaryType="jnt:folder">
+                                <_x0031_2.jpg j:height="111"
+                                      j:lastPublished="2012-08-29T19:21:39.163+02:00"
+                                      j:lastPublishedBy="jane"
+                                      j:originWS="default"
+                                      j:published="true"
+                                      j:width="111"
+                                      j:xresolution="100 dots"
+                                      j:yresolution="100 dots"
+                                      jcr:created="2012-08-29T19:21:38.393+02:00"
+                                      jcr:createdBy="jane"
+                                      jcr:lastModified="2012-08-29T19:21:39.134+02:00"
+                                      jcr:lastModifiedBy="jane"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.360-04:00"
+                                        jcr:lastModifiedBy="jane"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.365-04:00"
+                                      jcr:lastModifiedBy="jane"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.370-04:00"
+                                       jcr:lastModifiedBy="jane"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.381-04:00"
+                                       jcr:lastModifiedBy="jane"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.384-04:00"
+                                      jcr:lastModifiedBy="jane"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0031_2.jpg>
+                            </profile>
+                            <private j:originWS="default"
+                              jcr:created="2012-08-29T17:38:47.397+02:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:accessControlled"
+                              jcr:primaryType="jnt:folder">
+                                <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                                    <GRANT_u_user j:aceType="GRANT"
+                                         j:principal="u:jane"
+                                         j:protected="false"
+                                         j:roles="owner"
+                                         jcr:primaryType="jnt:ace"/>
+                                </j:acl>
+                                <imports j:originWS="default"
+                                 jcr:created="2012-08-29T17:38:47.398+02:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:primaryType="jnt:importDropBox"/>
+                            </private>
+                        </files>
+                        <portlets j:originWS="default"
+                            jcr:created="2012-08-29T17:38:47.399+02:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:portletFolder"/>
+                        <contents j:originWS="default"
+                            jcr:created="2012-08-29T17:38:47.399+02:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-08-29T17:38:47.515+02:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:contentFolder"/>
+                    </jane>
+                </cf>
+            </ef>
+        </he>
+        <hj jcr:primaryType="jnt:usersFolder">
+            <di jcr:primaryType="jnt:usersFolder">
+                <ac jcr:primaryType="jnt:usersFolder">
+                    <bill emailNotificationsDisabled="true"
+                     j:about="&lt;p&gt;&#xA; Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed doeiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim adminim veniam, quis nostrudexercitation ullamco laboris nisi utaliquip ex ea commodo consequat.Duis aute irure dolor inreprehenderit in coluptate velit essecillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatatnon proident, sunt in culpa quiofficia deserunt mollit anim id estlaborum.&lt;/p&gt;&#xA;"
+                     j:accountLocked="false"
+                     j:email=""
+                     j:external="false"
+                     j:firstName="Bill"
+                     j:function="Vice President"
+                     j:gender="male"
+                     j:lastName="Galileo"
+                     j:lastPublished="2016-05-27T13:34:09.380-04:00"
+                     j:lastPublishedBy="root"
+                     j:organization="Acme Space"
+                     j:originWS="default"
+                     j:password="W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+                     j:picture="#/users/hj/di/ac/bill/files/profile/6.jpg"
+                     j:publicProperties="j:about j:firstName j:function j:gender j:lastName j:organization j:picture j:title"
+                     j:published="true"
+                     j:title="mister"
+                     jcr:created="2012-01-25T19:39:51.448+01:00"
+                     jcr:createdBy="system"
+                     jcr:lastModified="2016-05-27T13:34:09.361-04:00"
+                     jcr:lastModifiedBy="root"
+                     jcr:mixinTypes="jmix:accessControlled"
+                     jcr:primaryType="jnt:user"
+                     preferredLanguage="en">
+                        <preferences jcr:primaryType="jnt:preferences"/>
+                        <j:acl jcr:primaryType="jnt:acl">
+                            <GRANT_u_bill j:aceType="GRANT"
+                                   j:principal="u:bill"
+                                   j:protected="false"
+                                   j:roles="owner"
+                                   jcr:primaryType="jnt:ace"/>
+                        </j:acl>
+                        <j:addresses jcr:primaryType="jnt:addresses"/>
+                        <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+                        <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                            <pwd-2014-03-26-13-57-16 jcr:created="2014-03-26T13:57:16.342+01:00"
+                                              jcr:createdBy="system"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                            <pwd-2016-05-27-13-34-09 jcr:created="2016-05-27T13:34:09.350-04:00"
+                                              jcr:createdBy="root"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                        </passwordHistory>
+                        <files j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                         j:lastPublishedBy="root"
+                         j:originWS="default"
+                         j:published="true"
+                         jcr:created="2012-01-25T19:39:51.450+01:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:folder">
+                            <profile j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                              j:lastPublishedBy="root"
+                              j:originWS="default"
+                              j:published="true"
+                              jcr:created="2012-01-25T19:39:51.451+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:primaryType="jnt:folder">
+                                <_x0036_.jpg j:height="111"
+                                     j:lastPublished="2012-02-13T09:30:59.727+01:00"
+                                     j:lastPublishedBy="root"
+                                     j:originWS="default"
+                                     j:published="true"
+                                     j:width="111"
+                                     j:xresolution="100 dots"
+                                     j:yresolution="100 dots"
+                                     jcr:created="2012-01-25T20:07:52.591+01:00"
+                                     jcr:createdBy="bill"
+                                     jcr:lastModified="2012-01-25T20:07:52.936+01:00"
+                                     jcr:lastModifiedBy="bill"
+                                     jcr:mixinTypes="jmix:exif jmix:image"
+                                     jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.336-04:00"
+                                        jcr:lastModifiedBy="bill"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.338-04:00"
+                                      jcr:lastModifiedBy="bill"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.342-04:00"
+                                       jcr:lastModifiedBy="bill"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.350-04:00"
+                                       jcr:lastModifiedBy="bill"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.352-04:00"
+                                      jcr:lastModifiedBy="bill"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0036_.jpg>
+                            </profile>
+                            <private j:originWS="default"
+                              jcr:created="2012-01-25T19:39:51.450+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:accessControlled"
+                              jcr:primaryType="jnt:folder">
+                                <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                                    <GRANT_u_user j:aceType="GRANT"
+                                         j:principal="u:bill"
+                                         j:protected="false"
+                                         j:roles="owner"
+                                         jcr:primaryType="jnt:ace"/>
+                                </j:acl>
+                                <imports j:originWS="default"
+                                 jcr:created="2012-01-25T19:39:51.451+01:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:primaryType="jnt:importDropBox"/>
+                            </private>
+                        </files>
+                        <portlets j:originWS="default"
+                            jcr:created="2012-01-25T19:39:51.451+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:portletFolder"/>
+                        <contents j:originWS="default"
+                            jcr:created="2012-01-25T19:39:51.452+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:39:51.566+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:contentFolder"/>
+                        <workflowTasks j:originWS="default"
+                                 jcr:created="2014-02-19T11:36:22.456+01:00"
+                                 jcr:createdBy="bill"
+                                 jcr:lastModified="2014-03-19T19:19:19.006+01:00"
+                                 jcr:lastModifiedBy="root"
+                                 jcr:primaryType="jnt:tasks"/>
+                    </bill>
+                </ac>
+            </di>
+        </hj>
+        <jb jcr:primaryType="jnt:usersFolder">
+            <ac jcr:primaryType="jnt:usersFolder">
+                <eh jcr:primaryType="jnt:usersFolder">
+                    <irina emailNotificationsDisabled="true"
+                      j:about="&lt;p&gt;&#xA; Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed doeiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim adminim veniam, quis nostrudexercitation ullamco laboris nisi utaliquip ex ea commodo consequat.Duis aute irure dolor inreprehenderit in coluptate velit essecillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatatnon proident, sunt in culpa quiofficia deserunt mollit anim id estlaborum.&lt;/p&gt;&#xA;"
+                      j:accountLocked="false"
+                      j:email=""
+                      j:external="false"
+                      j:firstName="Irina"
+                      j:function="Content validation Director"
+                      j:gender="female"
+                      j:lastName="Pasteur"
+                      j:lastPublished="2016-05-27T13:34:09.380-04:00"
+                      j:lastPublishedBy="root"
+                      j:organization="Acme Space"
+                      j:originWS="default"
+                      j:password="W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+                      j:picture="#/users/jb/ac/eh/irina/files/profile/5.jpg"
+                      j:publicProperties="j:about j:firstName j:function j:gender j:lastName j:organization j:picture j:title"
+                      j:published="true"
+                      j:title="madam"
+                      jcr:created="2012-01-25T19:53:02.851+01:00"
+                      jcr:createdBy="system"
+                      jcr:lastModified="2016-05-27T13:34:09.361-04:00"
+                      jcr:lastModifiedBy="root"
+                      jcr:mixinTypes="jmix:accessControlled"
+                      jcr:primaryType="jnt:user"
+                      preferredLanguage="en">
+                        <preferences jcr:primaryType="jnt:preferences"/>
+                        <j:acl jcr:primaryType="jnt:acl">
+                            <GRANT_u_irina j:aceType="GRANT"
+                                    j:principal="u:irina"
+                                    j:protected="false"
+                                    j:roles="owner"
+                                    jcr:primaryType="jnt:ace"/>
+                        </j:acl>
+                        <j:addresses jcr:primaryType="jnt:addresses"/>
+                        <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+                        <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                            <pwd-2014-03-26-13-57-16 jcr:created="2014-03-26T13:57:16.437+01:00"
+                                              jcr:createdBy="system"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                            <pwd-2016-05-27-13-34-09 jcr:created="2016-05-27T13:34:09.350-04:00"
+                                              jcr:createdBy="root"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                        </passwordHistory>
+                        <files j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                         j:lastPublishedBy="root"
+                         j:originWS="default"
+                         j:published="true"
+                         jcr:created="2012-01-25T19:53:02.855+01:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:folder">
+                            <profile j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                              j:lastPublishedBy="root"
+                              j:originWS="default"
+                              j:published="true"
+                              jcr:created="2012-01-25T19:53:02.858+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:primaryType="jnt:folder">
+                                <_x0035_.jpg j:height="111"
+                                     j:lastPublished="2012-02-13T09:30:58.857+01:00"
+                                     j:lastPublishedBy="root"
+                                     j:originWS="default"
+                                     j:published="true"
+                                     j:width="111"
+                                     j:xresolution="100 dots"
+                                     j:yresolution="100 dots"
+                                     jcr:created="2012-01-25T20:09:28.105+01:00"
+                                     jcr:createdBy="irina"
+                                     jcr:lastModified="2012-01-25T20:09:28.428+01:00"
+                                     jcr:lastModifiedBy="irina"
+                                     jcr:mixinTypes="jmix:exif jmix:image"
+                                     jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.467-04:00"
+                                        jcr:lastModifiedBy="irina"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.474-04:00"
+                                      jcr:lastModifiedBy="irina"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.479-04:00"
+                                       jcr:lastModifiedBy="irina"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.487-04:00"
+                                       jcr:lastModifiedBy="irina"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.489-04:00"
+                                      jcr:lastModifiedBy="irina"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0035_.jpg>
+                            </profile>
+                            <private j:originWS="default"
+                              jcr:created="2012-01-25T19:53:02.856+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:accessControlled"
+                              jcr:primaryType="jnt:folder">
+                                <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                                    <GRANT_u_user j:aceType="GRANT"
+                                         j:principal="u:irina"
+                                         j:protected="false"
+                                         j:roles="owner"
+                                         jcr:primaryType="jnt:ace"/>
+                                </j:acl>
+                                <imports j:originWS="default"
+                                 jcr:created="2012-01-25T19:53:02.858+01:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:primaryType="jnt:importDropBox"/>
+                            </private>
+                        </files>
+                        <portlets j:originWS="default"
+                            jcr:created="2012-01-25T19:53:02.858+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:portletFolder"/>
+                        <contents j:originWS="default"
+                            jcr:created="2012-01-25T19:53:02.859+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:53:03.057+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:contentFolder"/>
+                    </irina>
+                </eh>
+            </ac>
+        </jb>
+        <jf jcr:primaryType="jnt:usersFolder">
+            <bi jcr:primaryType="jnt:usersFolder">
+                <ab jcr:primaryType="jnt:usersFolder">
+                    <mathias emailNotificationsDisabled="true"
+                        j:about="&lt;p&gt;&#xA; Lorem Ipsum dolor sit amet,consectetur adipisicing elit, sed doeiusmod tempor incididunt ut laboreet dolore magna aliqua. Ut enim adminim veniam, quis nostrudexercitation ullamco laboris nisi utaliquip ex ea commodo consequat.Duis aute irure dolor inreprehenderit in coluptate velit essecillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatatnon proident, sunt in culpa quiofficia deserunt mollit anim id estlaborum.&lt;/p&gt;&#xA;"
+                        j:accountLocked="false"
+                        j:email=""
+                        j:external="false"
+                        j:firstName="Mathias"
+                        j:function="Acme Site Administrator"
+                        j:gender="male"
+                        j:lastName="Einstein"
+                        j:lastPublished="2016-05-27T13:34:09.380-04:00"
+                        j:lastPublishedBy="root"
+                        j:organization="Acme Space"
+                        j:originWS="default"
+                        j:password="W6ph5Mm5Pz8GgiULbPgzG37mj9g="
+                        j:picture="#/users/jf/bi/ab/mathias/files/profile/13.jpg"
+                        j:publicProperties="j:about j:firstName j:function j:gender j:lastName j:organization j:picture j:title"
+                        j:published="true"
+                        j:title="mister"
+                        jcr:created="2012-01-25T19:36:17.678+01:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-05-27T13:34:09.361-04:00"
+                        jcr:lastModifiedBy="root"
+                        jcr:mixinTypes="jmix:accessControlled"
+                        jcr:primaryType="jnt:user"
+                        preferredLanguage="en">
+                        <preferences jcr:primaryType="jnt:preferences"/>
+                        <j:acl jcr:primaryType="jnt:acl">
+                            <GRANT_u_mathias j:aceType="GRANT"
+                                      j:principal="u:mathias"
+                                      j:protected="false"
+                                      j:roles="owner"
+                                      jcr:primaryType="jnt:ace"/>
+                        </j:acl>
+                        <j:addresses jcr:primaryType="jnt:addresses"/>
+                        <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+                        <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                            <pwd-2014-03-26-13-57-16 jcr:created="2014-03-26T13:57:16.241+01:00"
+                                              jcr:createdBy="system"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                            <pwd-2016-05-27-13-34-09 jcr:created="2016-05-27T13:34:09.349-04:00"
+                                              jcr:createdBy="root"
+                                              jcr:primaryType="jnt:passwordHistoryEntry"/>
+                        </passwordHistory>
+                        <files j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                         j:lastPublishedBy="root"
+                         j:originWS="default"
+                         j:published="true"
+                         jcr:created="2012-01-25T19:36:18.282+01:00"
+                         jcr:createdBy="system"
+                         jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                         jcr:lastModifiedBy=""
+                         jcr:primaryType="jnt:folder">
+                            <profile j:lastPublished="2012-04-17T16:49:10.230+02:00"
+                              j:lastPublishedBy="root"
+                              j:originWS="default"
+                              j:published="true"
+                              jcr:created="2012-01-25T19:36:18.284+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:primaryType="jnt:folder">
+                                <_x0031_3.jpg j:height="111"
+                                      j:lastPublished="2012-02-13T09:30:59.516+01:00"
+                                      j:lastPublishedBy="root"
+                                      j:originWS="default"
+                                      j:published="true"
+                                      j:width="111"
+                                      j:xresolution="100 dots"
+                                      j:yresolution="100 dots"
+                                      jcr:created="2012-01-25T20:02:35.052+01:00"
+                                      jcr:createdBy="mathias"
+                                      jcr:lastModified="2012-01-25T20:02:35.418+01:00"
+                                      jcr:lastModifiedBy="mathias"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                    <jcr:content jcr:lastModified="2016-05-27T13:34:10.498-04:00"
+                                        jcr:lastModifiedBy="mathias"
+                                        jcr:mimeType="image/jpeg"
+                                        jcr:primaryType="jnt:resource"/>
+                                    <thumbnail jcr:lastModified="2016-05-27T13:34:10.500-04:00"
+                                      jcr:lastModifiedBy="mathias"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                    <thumbnail2 jcr:lastModified="2016-05-27T13:34:10.505-04:00"
+                                       jcr:lastModifiedBy="mathias"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_120 jcr:lastModified="2016-05-27T13:34:10.514-04:00"
+                                       jcr:lastModifiedBy="mathias"
+                                       jcr:mimeType="image/jpeg"
+                                       jcr:primaryType="jnt:resource"/>
+                                    <avatar_60 jcr:lastModified="2016-05-27T13:34:10.516-04:00"
+                                      jcr:lastModifiedBy="mathias"
+                                      jcr:mimeType="image/jpeg"
+                                      jcr:primaryType="jnt:resource"/>
+                                </_x0031_3.jpg>
+                            </profile>
+                            <private j:originWS="default"
+                              jcr:created="2012-01-25T19:36:18.282+01:00"
+                              jcr:createdBy="system"
+                              jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                              jcr:lastModifiedBy=""
+                              jcr:mixinTypes="jmix:accessControlled"
+                              jcr:primaryType="jnt:folder">
+                                <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                                    <GRANT_u_user j:aceType="GRANT"
+                                         j:principal="u:mathias"
+                                         j:protected="false"
+                                         j:roles="owner"
+                                         jcr:primaryType="jnt:ace"/>
+                                </j:acl>
+                                <imports j:originWS="default"
+                                 jcr:created="2012-01-25T19:36:18.283+01:00"
+                                 jcr:createdBy="system"
+                                 jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                                 jcr:lastModifiedBy=""
+                                 jcr:primaryType="jnt:importDropBox"/>
+                            </private>
+                        </files>
+                        <portlets j:originWS="default"
+                            jcr:created="2012-01-25T19:36:18.284+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:portletFolder"/>
+                        <contents j:originWS="default"
+                            jcr:created="2012-01-25T19:36:18.284+01:00"
+                            jcr:createdBy="system"
+                            jcr:lastModified="2012-01-25T19:36:18.379+01:00"
+                            jcr:lastModifiedBy=""
+                            jcr:primaryType="jnt:contentFolder"/>
+                    </mathias>
+                </ab>
+            </bi>
+        </jf>
+        <root j:accountLocked="false"
+            j:external="false"
+            j:lastPublished="2016-05-27T10:57:47.759-04:00"
+            j:lastPublishedBy="root"
+            j:originWS="default"
+            j:password="p:lSMOLb9frWnqDn1OwAUf3k1mr0VzrculpCqaCnLvuhUvvCjSTpJ/9eqw635eOfH5ArbRgRgQrWjB3fv7GeduzA==$z5lUnoQigI+FYU0BLWqB9E2yJYgGNc4xdVm3G6mIdBg="
+            j:published="true"
+            jcr:created="2016-05-27T10:46:50.328-04:00"
+            jcr:createdBy="system"
+            jcr:lastModified="2016-05-27T10:57:47.752-04:00"
+            jcr:lastModifiedBy=""
+            jcr:mixinTypes="jmix:accessControlled"
+            jcr:primaryType="jnt:user"
+            preferredLanguage="en">
+            <files j:originWS="default"
+                jcr:created="2016-05-27T10:46:50.329-04:00"
+                jcr:createdBy="system"
+                jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                jcr:lastModifiedBy=""
+                jcr:primaryType="jnt:folder">
+                <private j:originWS="default"
+                     jcr:created="2016-05-27T10:46:50.330-04:00"
+                     jcr:createdBy="system"
+                     jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                     jcr:lastModifiedBy=""
+                     jcr:mixinTypes="jmix:accessControlled"
+                     jcr:primaryType="jnt:folder">
+                    <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+                        <GRANT_u_root j:aceType="GRANT"
+                                j:principal="u:root"
+                                j:protected="false"
+                                j:roles="owner"
+                                jcr:primaryType="jnt:ace"/>
+                    </j:acl>
+                    <imports j:originWS="default"
+                        jcr:created="2016-05-27T10:46:50.332-04:00"
+                        jcr:createdBy="system"
+                        jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                        jcr:lastModifiedBy=""
+                        jcr:primaryType="jnt:importDropBox"/>
+                </private>
+                <profile j:originWS="default"
+                     jcr:created="2016-05-27T10:46:50.332-04:00"
+                     jcr:createdBy="system"
+                     jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                     jcr:lastModifiedBy=""
+                     jcr:primaryType="jnt:folder"/>
+            </files>
+            <portlets j:originWS="default"
+                   jcr:created="2016-05-27T10:46:50.333-04:00"
+                   jcr:createdBy="system"
+                   jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                   jcr:lastModifiedBy=""
+                   jcr:primaryType="jnt:portletFolder"/>
+            <contents j:originWS="default"
+                   jcr:created="2016-05-27T10:46:50.333-04:00"
+                   jcr:createdBy="system"
+                   jcr:lastModified="2016-03-10T14:02:48.482+01:00"
+                   jcr:lastModifiedBy=""
+                   jcr:primaryType="jnt:contentFolder"/>
+            <preferences jcr:primaryType="jnt:preferences"/>
+            <j:acl jcr:primaryType="jnt:acl">
+                <GRANT_u_root j:aceType="GRANT"
+                          j:principal="u:root"
+                          j:protected="false"
+                          j:roles="owner"
+                          jcr:primaryType="jnt:ace"/>
+            </j:acl>
+            <j:addresses jcr:primaryType="jnt:addresses"/>
+            <j:phones jcr:primaryType="jnt:phoneNumbers"/>
+            <passwordHistory jcr:primaryType="jnt:passwordHistory">
+                <pwd-2016-05-27-10-46-52 jcr:created="2016-05-27T10:46:52.576-04:00"
+                                     jcr:createdBy="system"
+                                     jcr:primaryType="jnt:passwordHistoryEntry"/>
+                <pwd-2016-04-07-16-48-28 jcr:created="2016-04-07T16:48:28.067+02:00"
+                                     jcr:createdBy="system"
+                                     jcr:primaryType="jnt:passwordHistoryEntry"/>
+                <pwd-2016-03-10-14-02-49 jcr:created="2016-03-10T14:02:49.618+01:00"
+                                     jcr:createdBy="system"
+                                     jcr:primaryType="jnt:passwordHistoryEntry"/>
+            </passwordHistory>
+            <workflowTasks j:originWS="default"
+                        jcr:created="2016-04-22T10:12:47.200+02:00"
+                        jcr:createdBy="root"
+                        jcr:lastModified="2016-04-22T10:12:47.248+02:00"
+                        jcr:lastModifiedBy="root"
+                        jcr:primaryType="jnt:tasks"/>
+        </root>
+    </users>
+</content>
