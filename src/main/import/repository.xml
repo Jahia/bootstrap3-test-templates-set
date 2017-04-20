@@ -103,7 +103,8 @@
                                             jcr:primaryType="bootstrap3nt:navBarItemMenu"
                                             position="right"/>
                                         <search-form jcr:primaryType="bootstrap3nt:navBarItemSimpleSearchForm"
-                                        position="right"/>
+                                        position="right"
+                                        result="/modules/bootstrap3-test-templates-set/search-result"/>
                                         <j:translation_en jcr:language="en"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
