@@ -58,12 +58,14 @@
   <packaging>bundle</packaging>
   <name>bootstrap3 Test Templates Set</name>
   <description>This is the custom profile module (bootstrap3 Test Templates Set) for running on a Digital Experience Manager server.</description>
-  <scm>
-    <connection>scm:dummy:uri</connection>
-    <developerConnection>scm:dummy:uri</developerConnection>
-  </scm>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</connection>
+        <url>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
   <properties>
-    <jahia-depends>bootstrap3-components,bootstrap3-core,default</jahia-depends>
+    <jahia-depends>bootstrap3-components,bootstrap3-core,default,facets,search</jahia-depends>
   </properties>
   <repositories>
     <repository>
@@ -205,7 +207,7 @@
         <configuration>
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
-            <Jahia-Depends>bootstrap3-core,bootstrap3-components</Jahia-Depends>
+            <Jahia-Depends>bootstrap3-core,bootstrap3-components,facets,search</Jahia-Depends>
           </instructions>
         </configuration>
       </plugin>
