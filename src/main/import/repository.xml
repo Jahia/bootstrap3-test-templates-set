@@ -142,7 +142,7 @@
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home"/>
                 </home>
-                <search-results j:templateName="1col" jcr:primaryType="jnt:page">
+                <search-results j:templateName="simple" jcr:primaryType="jnt:page">
                     <j:translation_en jcr:language="en"
                               jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
