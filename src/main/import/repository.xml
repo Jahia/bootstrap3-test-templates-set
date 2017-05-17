@@ -8,22 +8,6 @@
                                      j:title="bootstrap3 Test Templates Set"
                                      jcr:mixinTypes="jmix:hasExternalProviderExtension"
                                      jcr:primaryType="jnt:module">
-                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl jmix:sourceControl"
-                  jcr:primaryType="jnt:moduleVersionFolder"
-                  j:staticMountPointProviderKey="module-bootstrap3-test-templates-set-1.0-SNAPSHOT">
-                    <src jcr:mixinTypes="jmix:sourceControl jmix:sourceControl"
-                 jcr:primaryType="jnt:folder">
-                        <main jcr:mixinTypes="jmix:sourceControl jmix:sourceControl"
-                     jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                                <META-INF jcr:primaryType="jnt:metaInfFolder"/>
-                                <jnt_template jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:primaryType="jnt:templateTypeFolder"/>
-                                </jnt_template>
-                            </resources>
-                        </main>
-                    </src>
-                </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
@@ -109,7 +93,9 @@
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="Home"/>
-                                        <login jcr:primaryType="bootstrap3nt:navBarItemLoginForm"
+                                        <login j:view="tst-loginView"
+                                  jcr:mixinTypes="jmix:renderable"
+                                  jcr:primaryType="bootstrap3nt:navBarItemLoginForm"
                                   position="right"
                                   view="menu"/>
                                         <language-switcher jcr:primaryType="bootstrap3nt:navBarItemLanguageSwitcher"
