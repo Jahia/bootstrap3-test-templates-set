@@ -58,12 +58,11 @@
   <packaging>bundle</packaging>
   <name>bootstrap3 Test Templates Set</name>
   <description>This is the custom profile module (bootstrap3 Test Templates Set) for running on a Digital Experience Manager server.</description>
-    <scm>
-        <connection>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</connection>
-        <url>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</url>
-        <developerConnection>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
+  <scm>
+    <connection>scm:git:https://github.com/Jahia/bootstrap3-test-templates-set.git</connection>
+    <developerConnection>scm:git:https://github.com/Jahia/bootstrap3-test-templates-set.git</developerConnection>
+    <url>scm:git:git@github.com:Jahia/bootstrap3-test-templates-set.git</url>
+  </scm>
   <properties>
     <jahia-depends>bootstrap3-components,bootstrap3-core,default,facets,search</jahia-depends>
   </properties>
@@ -93,113 +92,111 @@
           <include>export.properties</include>
         </includes>
       </resource>
-	  <resource>
+      <resource>
         <targetPath>${project.build.directory}/bootstrap3-emptysite</targetPath>
         <directory>${basedir}/src/main/prepackagedSite</directory>
         <includes>
           <include>export.properties</include>
-            <include>users.zip</include>
+          <include>users.zip</include>
         </includes>
       </resource>
-        <resource>
-            <targetPath>${project.build.directory}/bootstrap3-emptysite-files</targetPath>
-            <directory>${basedir}/src/main/prepackagedSite</directory>
-            <includes>
-                <include>export.properties</include>
-                <include>users.zip</include>
-            </includes>
-        </resource>
+      <resource>
+        <targetPath>${project.build.directory}/bootstrap3-emptysite-files</targetPath>
+        <directory>${basedir}/src/main/prepackagedSite</directory>
+        <includes>
+          <include>export.properties</include>
+          <include>users.zip</include>
+        </includes>
+      </resource>
     </resources>
-         <plugins>
-             <plugin>
-                 <artifactId>maven-assembly-plugin</artifactId>
-                 <version>2.5.5</version>
-                 <executions>
-                   <execution>
-                     <id>make-assembly</id>
-                     <phase>validate</phase>
-                       <configuration>
-                           <descriptors>
-                               <descriptor>src/assembly/bootstrap3-test-templates-set.xml</descriptor>
-                           </descriptors>
-                           <outputDirectory>${project.build.directory}/prepackaged-site</outputDirectory>
-                           <finalName>bootstrap3-test-templates-set</finalName>
-                           <appendAssemblyId>false</appendAssemblyId>
-                       </configuration>
-                     <goals>
-                       <goal>assembly</goal>
-                     </goals>
-                   </execution>
-                   <execution>
-                         <id>create-empty-site</id>
-                         <phase>validate</phase>
-                         <configuration>
-                             <descriptors>
-                                 <descriptor>src/assembly/emptysite.xml</descriptor>
-                             </descriptors>
-                             <outputDirectory>${project.build.directory}/bootstrap3-emptysite</outputDirectory>
-                             <finalName>emptysite</finalName>
-                             <appendAssemblyId>false</appendAssemblyId>
-                         </configuration>
-                         <goals>
-                             <goal>assembly</goal>
-                         </goals>
-                     </execution>
-                     <execution>
-                         <id>create-empty-site-files</id>
-                         <phase>validate</phase>
-                         <configuration>
-                             <descriptors>
-                                 <descriptor>src/assembly/emptysite-files.xml</descriptor>
-                             </descriptors>
-                             <outputDirectory>${project.build.directory}/bootstrap3-emptysite-files</outputDirectory>
-                             <finalName>emptysite-files</finalName>
-                             <appendAssemblyId>false</appendAssemblyId>
-                         </configuration>
-                         <goals>
-                             <goal>assembly</goal>
-                         </goals>
-                     </execution>
-                 </executions>
-
-               </plugin>
-            <plugin>
-                  <groupId>org.jahia.server</groupId>
-                  <artifactId>jahia-maven-plugin</artifactId>
-                  <executions>
-                    <execution>
-                      <id>package-importsite</id>
-                      <goals>
-                        <goal>package-imports</goal>
-                      </goals>
-                      <configuration>
-                        <src>${project.build.directory}/prepackaged-site</src>
-                        <archiveName>prepackagedSites/bootstrap3TestSite.zip</archiveName>
-                      </configuration>
-                    </execution>
-                    <execution>
-                          <id>package-importemptysite</id>
-                          <goals>
-                              <goal>package-imports</goal>
-                          </goals>
-                          <configuration>
-                              <src>${project.build.directory}/bootstrap3-emptysite</src>
-                              <archiveName>prepackagedSites/emptysite.zip</archiveName>
-                          </configuration>
-
-                    </execution>
-                    <execution>
-                          <id>package-importemptysite-files</id>
-                          <goals>
-                              <goal>package-imports</goal>
-                          </goals>
-                          <configuration>
-                              <src>${project.build.directory}/bootstrap3-emptysite-files</src>
-                              <archiveName>prepackagedSites/emptysite-files.zip</archiveName>
-                          </configuration>
-                    </execution>
-                  </executions>
-                </plugin>
+    <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.5.5</version>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>assembly</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>src/assembly/bootstrap3-test-templates-set.xml</descriptor>
+              </descriptors>
+              <outputDirectory>${project.build.directory}/prepackaged-site</outputDirectory>
+              <finalName>bootstrap3-test-templates-set</finalName>
+              <appendAssemblyId>false</appendAssemblyId>
+            </configuration>
+          </execution>
+          <execution>
+            <id>create-empty-site</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>assembly</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>src/assembly/emptysite.xml</descriptor>
+              </descriptors>
+              <outputDirectory>${project.build.directory}/bootstrap3-emptysite</outputDirectory>
+              <finalName>emptysite</finalName>
+              <appendAssemblyId>false</appendAssemblyId>
+            </configuration>
+          </execution>
+          <execution>
+            <id>create-empty-site-files</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>assembly</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>src/assembly/emptysite-files.xml</descriptor>
+              </descriptors>
+              <outputDirectory>${project.build.directory}/bootstrap3-emptysite-files</outputDirectory>
+              <finalName>emptysite-files</finalName>
+              <appendAssemblyId>false</appendAssemblyId>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.jahia.server</groupId>
+        <artifactId>jahia-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>package-importsite</id>
+            <goals>
+              <goal>package-imports</goal>
+            </goals>
+            <configuration>
+              <src>${project.build.directory}/prepackaged-site</src>
+              <archiveName>prepackagedSites/bootstrap3TestSite.zip</archiveName>
+            </configuration>
+          </execution>
+          <execution>
+            <id>package-importemptysite</id>
+            <goals>
+              <goal>package-imports</goal>
+            </goals>
+            <configuration>
+              <src>${project.build.directory}/bootstrap3-emptysite</src>
+              <archiveName>prepackagedSites/emptysite.zip</archiveName>
+            </configuration>
+          </execution>
+          <execution>
+            <id>package-importemptysite-files</id>
+            <goals>
+              <goal>package-imports</goal>
+            </goals>
+            <configuration>
+              <src>${project.build.directory}/bootstrap3-emptysite-files</src>
+              <archiveName>prepackagedSites/emptysite-files.zip</archiveName>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>

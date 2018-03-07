@@ -32,7 +32,7 @@
                                                     level="0"
                                                     sectionElement="div"/>
                                 <section--container--row--grid-1 columnsType="customColumns"
-                                                      gridClasses="col-md-8, col-md-4"
+                                                      gridClasses="col-md-12"
                                                       gridLayout="fixed-width"
                                                       jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:customColumns"
                                                       jcr:primaryType="bootstrap3nt:columns"
@@ -48,17 +48,11 @@
                                                     level="0"
                                                     sectionElement="div"/>
                                 <simple columnsType="predefinedColumns"
-                             grid="4_8"
+                             grid="12"
                              gridLayout="fixed-width"
                              jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
                              jcr:primaryType="bootstrap3nt:columns"
-                             sectionElement="div">
-                                    <simple-side jcr:primaryType="jnt:contentList">
-                                        <side-menu displaySubpages="false"
-                                      jcr:primaryType="bootstrap3nt:sidemenu"
-                                      level="0"/>
-                                    </simple-side>
-                                </simple>
+                             sectionElement="div"/>
                             </pagecontent>
                         </simple>
                         <pagecontent jcr:primaryType="jnt:contentList">
