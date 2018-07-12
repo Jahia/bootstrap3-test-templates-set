@@ -164,7 +164,8 @@
                              gridLayout="fixed-width"
                              jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
                              jcr:primaryType="bootstrap3nt:columns"
-                             sectionElement="div">
+                             sectionElement="div"
+                             sectionId="tst-liveArea">
                                     <simple-main jcr:primaryType="jnt:contentList">
                                         <template-b jcr:primaryType="jnt:text">
                                             <j:translation_en jcr:language="en"
@@ -246,7 +247,8 @@
                              gridLayout="fixed-width"
                              jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
                              jcr:primaryType="bootstrap3nt:columns"
-                             sectionElement="div">
+                             sectionElement="div"
+                             sectionId="tst-liveArea">
                                     <simple-main jcr:primaryType="jnt:contentList">
                                         <template-a jcr:primaryType="jnt:text">
                                             <j:translation_en jcr:language="en"
