@@ -30,13 +30,32 @@
                                                     jcr:mixinTypes="bootstrap3mix:createAbsoluteAreas bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection"
                                                     jcr:primaryType="bootstrap3nt:columns"
                                                     level="0"
-                                                    sectionElement="div"/>
+                                                    sectionElement="div"
+                                                    sectionId="tst-absoluteArea"/>
                                 <section--container--row--grid-1 columnsType="customColumns"
                                                       gridClasses="col-md-12"
                                                       gridLayout="fixed-width"
                                                       jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:customColumns"
                                                       jcr:primaryType="bootstrap3nt:columns"
                                                       sectionElement="div"/>
+                                <footer columnsType="predefinedColumns"
+                             grid="12"
+                             gridLayout="fixed-width"
+                             jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
+                             jcr:primaryType="bootstrap3nt:columns"
+                             sectionElement="div"
+                             sectionId="tst-footerArea">
+                                    <footer-main jcr:primaryType="jnt:contentList">
+                                        <footer jcr:primaryType="jnt:text">
+                                            <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_de jcr:language="de" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_pt jcr:language="pt" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_it jcr:language="it" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_es jcr:language="es" jcr:primaryType="jnt:translation" text="footer"/>
+                                        </footer>
+                                    </footer-main>
+                                </footer>
                             </pagecontent>
                         </home>
                         <simple jcr:primaryType="jnt:pageTemplate">
@@ -46,13 +65,33 @@
                                                     jcr:mixinTypes="bootstrap3mix:createAbsoluteAreas bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection"
                                                     jcr:primaryType="bootstrap3nt:columns"
                                                     level="0"
-                                                    sectionElement="div"/>
+                                                    sectionElement="div"
+                                                    sectionId="tst-absoluteArea"/>
                                 <simple columnsType="predefinedColumns"
                              grid="12"
                              gridLayout="fixed-width"
                              jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
                              jcr:primaryType="bootstrap3nt:columns"
-                             sectionElement="div"/>
+                             sectionElement="div"
+                             sectionId="tst-liveArea"/>
+                                <footer columnsType="predefinedColumns"
+                             grid="12"
+                             gridLayout="fixed-width"
+                             jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
+                             jcr:primaryType="bootstrap3nt:columns"
+                             sectionElement="div"
+                             sectionId="tst-footerArea">
+                                    <footer-main jcr:primaryType="jnt:contentList">
+                                        <footer jcr:primaryType="jnt:text">
+                                            <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_de jcr:language="de" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_pt jcr:language="pt" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_it jcr:language="it" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_es jcr:language="es" jcr:primaryType="jnt:translation" text="footer"/>
+                                        </footer>
+                                    </footer-main>
+                                </footer>
                             </pagecontent>
                         </simple>
                         <pagecontent jcr:primaryType="jnt:contentList">
@@ -118,7 +157,8 @@
                                                     jcr:mixinTypes="bootstrap3mix:createAbsoluteAreas bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection"
                                                     jcr:primaryType="bootstrap3nt:columns"
                                                     level="0"
-                                                    sectionElement="div"/>
+                                                    sectionElement="div"
+                                                    sectionId="tst-absoluteArea"/>
                                 <simple columnsType="predefinedColumns"
                              grid="12"
                              gridLayout="fixed-width"
@@ -148,6 +188,24 @@
                                         </template-b>
                                     </simple-main>
                                 </simple>
+                                <footer columnsType="predefinedColumns"
+                             grid="12"
+                             gridLayout="fixed-width"
+                             jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
+                             jcr:primaryType="bootstrap3nt:columns"
+                             sectionElement="div"
+                             sectionId="tst-footerArea">
+                                    <footer-main jcr:primaryType="jnt:contentList">
+                                        <footer jcr:primaryType="jnt:text">
+                                            <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_de jcr:language="de" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_pt jcr:language="pt" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_it jcr:language="it" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_es jcr:language="es" jcr:primaryType="jnt:translation" text="footer"/>
+                                        </footer>
+                                    </footer-main>
+                                </footer>
                             </pagecontent>
                             <j:translation_de jcr:language="de"
                                     jcr:mixinTypes="mix:title"
@@ -181,7 +239,8 @@
                                                     jcr:mixinTypes="bootstrap3mix:createAbsoluteAreas bootstrap3mix:createContainer bootstrap3mix:createRow bootstrap3mix:createSection"
                                                     jcr:primaryType="bootstrap3nt:columns"
                                                     level="0"
-                                                    sectionElement="div"/>
+                                                    sectionElement="div"
+                                                    sectionId="tst-absoluteArea"/>
                                 <simple columnsType="predefinedColumns"
                              grid="12"
                              gridLayout="fixed-width"
@@ -211,6 +270,24 @@
                                         </template-a>
                                     </simple-main>
                                 </simple>
+                                <footer columnsType="predefinedColumns"
+                             grid="12"
+                             gridLayout="fixed-width"
+                             jcr:mixinTypes="bootstrap3mix:createContainer bootstrap3mix:createSection bootstrap3mix:predefinedColumns"
+                             jcr:primaryType="bootstrap3nt:columns"
+                             sectionElement="div"
+                             sectionId="tst-footerArea">
+                                    <footer-main jcr:primaryType="jnt:contentList">
+                                        <footer jcr:primaryType="jnt:text">
+                                            <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_de jcr:language="de" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_pt jcr:language="pt" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_it jcr:language="it" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="footer"/>
+                                            <j:translation_es jcr:language="es" jcr:primaryType="jnt:translation" text="footer"/>
+                                        </footer>
+                                    </footer-main>
+                                </footer>
                             </pagecontent>
                             <j:translation_de jcr:language="de"
                                     jcr:mixinTypes="mix:title"
