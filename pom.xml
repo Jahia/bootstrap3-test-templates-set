@@ -65,6 +65,7 @@
   </scm>
   <properties>
     <jahia-depends>bootstrap3-components,bootstrap3-core,default,facets,search</jahia-depends>
+    <jahia-module-signature>MCwCFEw+glt7MxYR0WdjV7LJ4/qwOwBYAhRPpQSSE2/0R2ScK1K5Z9LEGKlKqg==</jahia-module-signature>
   </properties>
   <repositories>
     <repository>
