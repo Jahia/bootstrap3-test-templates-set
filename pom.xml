@@ -50,7 +50,7 @@
   <parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>jahia-modules</artifactId>
-    <version>7.1.1.0</version>
+    <version>8.0.0.0-SNAPSHOT</version>
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>bootstrap3-test-templates-set</artifactId>
@@ -65,6 +65,7 @@
   </scm>
   <properties>
     <jahia-depends>bootstrap3-components,bootstrap3-core,default,facets,search</jahia-depends>
+    <jahia-module-signature>MCwCFEw+glt7MxYR0WdjV7LJ4/qwOwBYAhRPpQSSE2/0R2ScK1K5Z9LEGKlKqg==</jahia-module-signature>
   </properties>
   <repositories>
     <repository>
