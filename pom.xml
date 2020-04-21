@@ -54,7 +54,7 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>bootstrap3-test-templates-set</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>bootstrap3 Test Templates Set</name>
   <description>This is the custom profile module (bootstrap3 Test Templates Set) for running on a Digital Experience Manager server.</description>
